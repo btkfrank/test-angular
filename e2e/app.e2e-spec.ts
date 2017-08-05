@@ -8,6 +8,7 @@ describe('test-angular App', () => {
   });
 
   it('should display message saying app works', () => {
+    //test
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
   });
